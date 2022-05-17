@@ -25,7 +25,7 @@ const Location = () => {
     return (
         <div className='card'>
 
-            <img src="https://wallpaperaccess.com/full/5196310.png" alt="" />
+            {/* <img src="https://wallpaperaccess.com/full/5196310.png" alt="" /> */}
 
             <h1>RICK AND MORTY WIKI</h1>
 
