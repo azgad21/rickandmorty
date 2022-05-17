@@ -13,7 +13,7 @@ const LocationItem = ({resident} ) => {
     console.log(person)
 
     return (
-        <div className='col-md-6'>
+        <div className='container'>
             <div className='img-resident'>
                 <img src={person.image} alt="" />
                 <div className='info-resident'>
