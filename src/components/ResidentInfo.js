@@ -17,12 +17,12 @@ const LocationItem = ({resident} ) => {
             <div className='img-resident'>
                 <img src={person.image} alt="" />
                 <div className='info-resident'>
-                    <p>
+                    <p className='text-center'>
                         <b>{person.name}</b>
                     </p>    
                     <p><b>Status: </b>{person.status}</p>
-                    <p><b>Origin: </b>{person.origin?.name} </p>
-                    <p><b>Episodes where appear: </b>{person.episode?.length}</p>
+                    <p className='description'><b>Origin: </b>{person.origin?.name} </p>
+                    <p className='description'><b>Episodes where appear: </b>{person.episode?.length}</p>
                 </div>    
             </div>
         </div>

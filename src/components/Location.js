@@ -29,7 +29,7 @@ const Location = () => {
 
             <h1>RICK AND MORTY WIKI</h1>
 
-            <div className='button'>
+            <div className='search-box'>
 
             <input type="text" value={id} onChange={e => setId(e.target.value)} />
             <button className='button' onClick={searchId}>Buscar</button> 
